@@ -6,10 +6,11 @@ fs.readFile('apache20190906.log', 'utf8', function(err, data) {
 });
  */
 
-const abc = require('fileReader.js');
+const FileReader = require('./fileReader.js'); 
+const fileReader = new FileReader();
 
-abc.convertLogtoJSON();
 
+fileReader.convertLogToJSON();
 
 
 
