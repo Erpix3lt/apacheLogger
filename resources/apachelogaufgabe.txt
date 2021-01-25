@@ -1,0 +1,31 @@
+
+Fallbeispiel logfileaanlyse apache fiktiv
+Sie sind Systemadministrator bei der Firma FittnessAndHealthShops.
+
+Die Firma betreibt mehrere Internetseiten im Bereich Fittness und Medizin.
+Die Programmierung beruht ist in den vergangenen Jahren nur wenig modifiziert worden, und zwar dann, wenn ein neuer shop eröffnet wurde.
+
+Die Seitenzugriffe werden auf dem Server gelogt im Apache Webserver Format.
+
+Die Seitenzugriffe sollen von einem bisher unbekannten, amerikanischen Unternehmen MyAnalyticsUS analysiert werden. Deshalb sollen sie die Logfiles vom 06.09.2019 apache20190906.log und vom 04.09.2020 apache20200904.log an  MyAnalyticsUS schicken.
+
+Bevor sie die Files an Unternehmen schicken, sollen sie die beiden Logfiles gemäß Datenschutz nach DSGVO überprüfen und ggf anpassen, aber so, daß sie noch auswertbar sind.
+
+
+Das Files sind download über https://github.com/FlorianFranzenCgn/CoCo2021.git
+
+Aufgabe 1:
+Die Files sollen von ihnen untersucht werden bezüglich möglicher Konflikte mit der DSGVO.
+Schreiben sie ein Programm, welches die Logfiles so überarbeitet, dass Datenschutz gemäß DSGVO berücksichtigt wird. 
+
+Aufgabe 1 b: (optional)
+In einem der Files ist übrigens eine Spionageatacke auf ihre Kundendaten versteckt. Nennen sie diesen Urheber.
+
+Aufgabe 2: (optional)
+Sie sind Mitarbeiter der Firma MyAnalyticsUS.
+Sie verarbeiten also nur die überarbeiteten logfiles.
+Messen sie PageImpression und Visits pro site.
+Messen sie die “treuen Kunden”
+
+
+alle Daten in den logs sind erfunden
