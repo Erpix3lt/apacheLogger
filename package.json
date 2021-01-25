@@ -1,0 +1,11 @@
+{
+  "name": "apachelog",
+  "version": "1.0.0",
+  "description": "check log files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "f,m,m",
+  "license": "ISC"
+}
